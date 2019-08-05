@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="60dp">
+
+    <TextView
+            android:id="@+id/todotext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Some small text"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="65dp"/>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/todocheckbox"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"/>
+
+    <ImageView
+            android:id="@+id/tododelete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/presence_offline"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"/>
+
+</RelativeLayout>
